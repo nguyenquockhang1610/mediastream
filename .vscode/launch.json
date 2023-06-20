@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch index.html with Live Server",
+        "type": "chrome",
+        "request": "launch",
+        "file": "${workspaceFolder}/index.html",
+        "runtimeArgs": [
+          "-incognito",
+          "--remote-debugging-port=9222"
+        ],
+        "userDataDir": "${workspaceFolder}/.vscode/chrome",
+        "sourceMaps": true,
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+  }
+  
